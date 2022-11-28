@@ -50,6 +50,8 @@ public class MailChimp {
         contact.setSynced(true);
         updatedContacts.add(contact);
       }
+
+      log.info("Contacts synced and stored: " + updatedContacts.size());
       return updatedContacts;
     } catch (final MalformedURLException | TransportException | URISyntaxException e) {
       log.error("Error subscribing to mailchimp list! Message {}", e.getMessage(), e);
