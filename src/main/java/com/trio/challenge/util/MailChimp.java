@@ -1,4 +1,4 @@
-package com.trio.challenge.configuration;
+package com.trio.challenge.util;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -27,6 +27,7 @@ import java.util.Map;
 public class MailChimp {
 
   private static final String DEFAULT_IP_ADDRESS = "127.0.0.1";
+
   @Value("${mailchimp.api.key}")
   private String apiKey;
 

@@ -129,5 +129,4 @@ class ContactServiceTest {
       throw new RuntimeException("Error reading contacts from json file");
     }
   }
-
 }

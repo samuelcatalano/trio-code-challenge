@@ -2,7 +2,7 @@ package com.trio.challenge.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
 
-import com.trio.challenge.configuration.MailChimp;
+import com.trio.challenge.util.MailChimp;
 import com.trio.challenge.dto.ContactDTO;
 import com.trio.challenge.dto.SyncedContactDTO;
 import com.trio.challenge.dto.SyncedResultDTO;
