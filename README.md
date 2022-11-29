@@ -15,8 +15,11 @@
 | **Springfox Swagger 2** | 2.9.2 |
 
 
-### The Link To The Project Explanation Video:
+### Link To The Project Explanation Video:
 https://loom.com/share/84e38cee5010460ea717b7fe1da13fd6
+
+### Link To The Technical Design Documentation:
+https://docs.google.com/document/d/1iFdPycdhAfG6VLsiG4bblJp66HhuEcwceGTJO2FnxDY/edit?usp=sharing
 
 ### Acess Swagger Open Rest API:
 Once with the application running:
