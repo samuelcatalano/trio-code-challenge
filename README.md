@@ -19,14 +19,14 @@ Once with the application running:
 
 - Localhost: http://localhost:8080/swagger-ui.html  
 - Heroku: https://trio-backend-challenge.herokuapp.com/swagger-ui.html  
-- Amazon: http://ec2-52-54-149-174.compute-1.amazonaws.com:8080/swagger-ui.html
+- Amazon: http://ec2-52-91-81-26.compute-1.amazonaws.com:8080/swagger-ui.html
 
 ### Acess H2 Memory Database:
 Once with the application running:
 
 - Localhost: http://localhost:8080/h2-console
 - Heroku: https://trio-backend-challenge.herokuapp.com/h2-console
-- Amazon: http://ec2-52-54-149-174.compute-1.amazonaws.com:8080/h2-console
+- Amazon: http://ec2-52-91-81-26.compute-1.amazonaws.com:8080/h2-console
 
 jdbc: `jdbc:h2:mem:db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;AUTO_RECONNECT=TRUE;DATABASE_TO_UPPER=false;`  
 user: `admin`  
@@ -52,7 +52,7 @@ Terminal:
 
 **Localhost** base URL path: http://localhost:8080/  
 **Heroku** base URL path: https://trio-backend-challenge.herokuapp.com/  
-**Amazon** base URL path: http://ec2-52-54-149-174.compute-1.amazonaws.com:8080/
+**Amazon** base URL path: http://ec2-52-91-81-26.compute-1.amazonaws.com:8080/
 
 * GET: `/contacts/sync`
 > Should return the list of synced contacts in JSON following this structure:
