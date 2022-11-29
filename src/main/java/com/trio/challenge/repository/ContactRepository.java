@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ContactRepository extends CrudRepository<Contact, String> {
 
-  @Query("SELECT count(*) FROM Contact")
+  @Query("SELECT SUM(case isSynced when true then 1 else 0 end) FROM Contact")
   long countSyncedContacts();
 
 }
