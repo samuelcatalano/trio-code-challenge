@@ -14,6 +14,10 @@
 | **H2 Memory** | 2.1.212 |
 | **Springfox Swagger 2** | 2.9.2 |
 
+
+### The Link To The Project Explanation Video:
+https://loom.com/share/84e38cee5010460ea717b7fe1da13fd6
+
 ### Acess Swagger Open Rest API:
 Once with the application running:
 
